@@ -81,7 +81,7 @@ function endGame() {
 function newGame() {
   const newGameButton=document.querySelector('#newGame')
   newGameButton.addEventListener('click',function(e){
-    let randomNumber = parseInt(Math.random() * 100 + 1);
+     randomNumber = parseInt(Math.random() * 100 + 1);
     userInput.removeAttribute('disabled')
     numGuess=1;
     startOver.removeChild(p)
